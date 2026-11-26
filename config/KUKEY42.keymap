@@ -96,10 +96,10 @@
 
         ARROW {
             bindings = <
-&kp AMPERSAND        &kp AT_SIGN       &kp RIGHT_BRACKET  &kp BACKSLASH  &kp LS(INTERNATIONAL_3)                                   &kp UNDER      &kp LC(KP_PLUS)  &kp ASTERISK    &kp LEFT_PARENTHESIS  &kp PLUS
-&kp MINUS            &kp LEFT_BRACKET  &kp EXCLAMATION    &kp QUESTION   &kp INT_YEN                 &trans                &to 4   &kp PAGE_UP    &kp LC(MINUS)    &kp UP_ARROW    &kp CARET             &trans
-&mt LEFT_SHIFT HASH  &kp PERCENT       &kp SINGLE_QUOTE   &kp SEMICOLON  &kp EQUAL                   &trans                &trans  &kp PAGE_DOWN  &kp LEFT_ARROW   &kp DOWN_ARROW  &kp RIGHT_ARROW       &kp LS(INTERNATIONAL_1)
-&trans               &trans            &trans             &trans         &mt (LEFT_SHIFT) LS(SPACE)  &lt 1 LANGUAGE_2      &trans  &trans                                                                &trans
+&kp AMPERSAND  &kp AT_SIGN  &kp RIGHT_BRACKET  &kp BACKSLASH  &kp LS(INTERNATIONAL_3)  &none  &kp LBKT  &kp RBKT  &kp BSLH  &none
+&kp MINUS  &kp LEFT_BRACKET  &kp EXCLAMATION  &kp QUESTION  &kp INT_YEN  &trans  &to 4  &kp FSLH  &kp LS(N9)  &kp LS(N0)  &kp SQT  &kp SEMI
+&mt LEFT_SHIFT HASH  &kp PERCENT  &kp SINGLE_QUOTE  &kp SEMICOLON  &kp EQUAL  &trans  &trans  &kp GRAVE  &kp MINUS  &kp EQUAL  &kp COMMA  &kp DOT
+&trans  &trans  &trans  &trans  &mt (LEFT_SHIFT) LS(SPACE)  &lt 1 LANGUAGE_2  &trans  &trans  &trans
             >;
 
             sensor-bindings = <&inc_dec_kp LC(KP_MINUS) LC(KP_PLUS)>;
