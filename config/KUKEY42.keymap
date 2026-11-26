@@ -71,10 +71,10 @@
 
         FUNCTION {
             bindings = <
-&trans  &kp LS(N1)  &kp LS(N2)  &kp LS(NUMBER_3)  &kp LS(N4)                      &kp LS(N5)      &kp LS(NUMBER_6)  &kp LS(N7)    &kp LS(N8)  &kp F12
-&trans  &trans      &trans      &mt RWIN ENTER    &trans      &trans      &trans  &kp LEFT_ARROW  &kp DOWN_ARROW    &kp UP_ARROW  &kp RIGHT   &kp F11
-&trans  &trans      &trans      &trans            &trans      &mo 6       &trans  &trans          &kp LANG2         &kp LANG1     &trans      &kp F10
-&trans  &trans      &trans      &trans            &trans      &mo 1       &trans  &trans                                                      &kp ESCAPE
+&trans  &kp LS(N1)  &kp LS(N2)  &kp LS(NUMBER_3)  &kp LS(N4)                      &kp LS(N5)      &kp LS(NUMBER_6)  &kp LS(N7)    &kp LS(N8)  &trans
+&trans  &mo 2       &trans      &mt RWIN ENTER    &trans      &trans      &trans  &kp LEFT_ARROW  &kp DOWN_ARROW    &kp UP_ARROW  &kp RIGHT   &trans
+&trans  &trans      &trans      &trans            &trans      &mo 6       &trans  &trans          &kp LANG2         &kp LANG1     &trans      &trans
+&trans  &trans      &trans      &trans            &trans      &trans      &trans  &trans                                                      &trans
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_DOWN C_VOLUME_UP>;
@@ -82,10 +82,10 @@
 
         NUM {
             bindings = <
-&kp LS(INTERNATIONAL_1)  &kp LEFT_ALT     &kp ASTERISK      &kp LEFT_PARENTHESIS  &mkp MCLK                             &kp TAB       &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp KP_MINUS
-&kp MINUS                &kp UNDERSCORE   &mo 5             &mkp LCLK             &mkp RCLK  &trans         &trans      &kp KP_SLASH  &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &mt RIGHT_SHIFT SINGLE_QUOTE
-&mt LEFT_SHIFT KP_PLUS   &kp KP_ASTERISK  &kp LEFT_BRACKET  &kp LC(V)             &kp LC(C)  &kp LC(Z)      &kp DELETE  &kp KP_N0     &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp KP_DOT
-&trans                   &trans           &trans            &trans                &trans     &trans         &trans      &trans                                                           &kp KP_NUMLOCK
+&kp LS(INTERNATIONAL_1)  &kp LEFT_ALT     &kp ASTERISK      &kp LEFT_PARENTHESIS  &mkp MCLK                             &kp HASH         &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp KP_MINUS
+&kp MINUS                &kp UNDERSCORE   &mo 5             &mkp LCLK             &mkp RCLK  &trans         &trans      &kp EQUAL        &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &mt RIGHT_SHIFT SINGLE_QUOTE
+&mt LEFT_SHIFT KP_PLUS   &kp KP_ASTERISK  &kp LEFT_BRACKET  &kp LC(V)             &kp LC(C)  &kp LC(Z)      &kp DELETE  &kp MINUS        &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp KP_DOT
+&trans                   &trans           &trans            &trans                &trans     &trans         &trans      &kp KP_NUMBER_0                                                     &kp KP_NUMLOCK
             >;
         };
 
@@ -102,10 +102,10 @@
 
         MOUSE {
             bindings = <
-&trans  &trans  &trans  &trans  &trans                      &trans  &trans    &trans  &trans    &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &to 0   &trans  &mkp MB1  &mo 5   &mkp MB2  &mkp MB3
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans    &trans  &trans    &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans                              &bootloader
+&trans  &trans  &trans         &trans         &trans                      &trans  &trans    &trans  &trans    &trans
+&trans  &trans  &kp RIGHT_WIN  &kp RIGHT_ALT  &trans  &trans      &to 0   &trans  &mkp MB1  &mo 5   &mkp MB2  &mkp MB3
+&trans  &trans  &trans         &trans         &trans  &trans      &trans  &trans  &trans    &trans  &trans    &trans
+&trans  &trans  &trans         &trans         &trans  &trans      &trans  &trans                              &bootloader
             >;
         };
 
